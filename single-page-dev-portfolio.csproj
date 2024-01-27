@@ -21,4 +21,9 @@
     <Content Remove="wwwroot\data\" />
     <Content Remove="wwwroot\data\images\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Update="wwwroot\data\images\image-profile-desktop.webp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
 </Project>

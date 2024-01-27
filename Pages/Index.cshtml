@@ -4,8 +4,37 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+
+<section class="intro">
+    <div class="wrapper hero__wrapper bottom-border">
+        <div class="card profile">
+            <picture>
+                <source media="(min-width: 62.5em)"
+                        srcset="/data/images/image-profile-desktop.webp" />
+                <source media="(min-width: 37.5em)"
+                        srcset="/data/images/image-profile-tablet.webp" />
+                <img class="profile_image img-fluid img-thumbnail"
+                     src="/data/images/image-profile-mobile.webp"
+                     alt="picture of Adam Keyes"
+                     width-="174"
+                     height="383" />
+            </picture> 
+            <div class="card-body profile-text">
+                <h1 class="card-title greeting-xl">
+                    Nice to<br />
+                    meet you! I'm <span>Adam Keyes</span>.
+                </h1>
+                <p class="card-text profile-description">
+                    Based in the UK, I'm a front-end developer passionate about
+                    building accessible web apps that users love.
+                </p>
+
+                
+                <a href="#contact" class="intro-contact underline">Contact me</a>
+            </div>
+        </div>
+
+        
+    </div>
+</section>
 

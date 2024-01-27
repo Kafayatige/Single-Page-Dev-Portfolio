@@ -1,4 +1,4 @@
-﻿html {
+﻿/*html {
   font-size: 14px;
 }
 
@@ -19,4 +19,40 @@ html {
 
 body {
   margin-bottom: 60px;
+}
+*/
+
+/* using custom css for GLOBAL styling declaration*/
+
+html,body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+
+:root {
+    --black: hsl(0, 0%, 8%);
+    --dark-grey: hsl(0, 0%, 14%);
+    --light-green: hsl(153, 71%, 59%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 85%);
+    --text-error: hsl(7, 100%, 68%);
+    --font-size-18: 1.125rem;
+    --font-size-88: 5.5rem;
+    --font-size-72: 4.5rem;
+    --font-size-40: 2.5rem;
+    --font-size-48: 3rem;
+    --font-size-36: 2.25rem;
+    --font-size-32: 2rem;
+    --font-size-24: 1.5rem;
+    --font-size-20: 1.25rem;
+    --container: 69.375rem;
+    --transition: 250ms ease-in-out;
+}
+
+body {
+    
 }
